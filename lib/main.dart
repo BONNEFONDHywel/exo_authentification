@@ -45,7 +45,7 @@ Future<void> fetchData() async {
   );
 
   if (response.statusCode == 200) {
-    // Process your data...
+
   } else {
     if (kDebugMode) {
       print('Failed to fetch data');
